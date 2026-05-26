@@ -1,12 +1,7 @@
 import Kaleidoscope from '@/features/kaleidoscope';
-import React from 'react';
 
 const Home = () => {
-  return (
-    <div>
-      <Kaleidoscope />
-    </div>
-  );
+  return <Kaleidoscope />;
 };
 
 export default Home;
